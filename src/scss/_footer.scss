@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__container {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px;
+    background-color: $black-primary;
+    color: $white;
+  }
+}
+
+.github {
+  font-size: 30px;
+  line-height: 47px;
+  text-align: center;
+
+  &__link {
+    color: $blue-primary;
+  }
+}
+
+.year {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 47px;
+}
+
